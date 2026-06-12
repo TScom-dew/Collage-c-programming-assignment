@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include<string.h>
+
 int main()
 {
 	// your code goes here
 	char add[100];
 	
-	printf("Enter your home adderess: ");
+	printf("Enter your Home adderess: ");
 	fgets(add, 100, stdin);
 	//
 	// removing new line 
