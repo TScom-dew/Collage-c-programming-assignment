@@ -28,29 +28,32 @@ int main()
 
 void circleArea(){
     float r;
-    printf("Enter the radius of circle\n");
+    printf("Enter the radius of circle: ");
     scanf("%f", &r);
-    printf("Area of the circle= %.2f", 3.14 * r * r);
+    printf("Area of the circle= %.2f\n", 3.14 * r * r);
 
 }
 void squareArea(){
     int side;
-    printf("\n Entet the side of square\n");
+    printf("\nEntet the side of square: ");
     scanf("%d", &side);
-    printf("Area of square= %d", side * side);
+    printf("Area of square= %d\n", side * side);
 }
 void rectangleArea(){
      int length, bredth;
-    printf("\nEnter the length and bredth of rectangle\n");
+    printf("Enter the length and bredth of rectangle: ");
     scanf("%d %d", &length, &bredth);
-    printf("Area of rectangle= %d", length * bredth);
+    printf("Area of rectangle= %d\n", length * bredth);
 }
 void triangleArea(){
-     int a, b, c, s = 0;
+     int a, b, c;
+     float s = 0;
     float area;
-    printf("\n Enter the three sides of triangle \n");
-    scanf("%d %d %d ", &a, &b, &c);
-    s = (a + b + c) / 2;
-    area = sqrt(s * (s - a) * (s - b) * (s - c));
-    printf(" Area of triangle= %f", area);
+    printf("Enter the three sides of triangle: \n");
+    scanf("%d %d %d", &a, &b, &c);
+    s = (a + b + c) / 2.0;
+    float value=(s * (s - a) * (s - b) * (s - c));
+    // float value=4;
+    area=sqrt(value);
+    printf("Area of triangle= %f\n", area);
 }
