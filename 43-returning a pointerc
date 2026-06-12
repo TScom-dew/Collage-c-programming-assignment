@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+
+	int ptrfunction(){
+		float a;
+		printf("\nEnter a value: ");
+		scanf("%f", &a);
+
+		
+	}
+int main() {
+	
+	
+	//;
+
+	printf(" returned address by a function : %p", ptrfunction());
+		
+	return 0;
+}

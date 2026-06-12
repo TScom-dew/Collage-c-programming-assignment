@@ -1,0 +1,21 @@
+# Ignore compiled executables - linux / mac
+
+# But allow .c file and .gitignore
+
+!*.c
+!.gitignore
+!README.md
+!
+
+#ignore vs code folder but keep settings files
+
+.vscode/
+!.vscode/tasks.json
+!.vscode/launch.json
+
+#ignore object and tempt file 
+
+*.o
+*.obj
+*.out
+*.exe
