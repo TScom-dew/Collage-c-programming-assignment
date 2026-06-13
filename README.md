@@ -1,5 +1,5 @@
 
-# Your most Welcome to my repository
+# Welcome to my repository
 
 # 🎓 College C Programming Assignment
 
