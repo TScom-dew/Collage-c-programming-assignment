@@ -697,4 +697,17 @@ footer p{
 
         flex-direction:column;
     }
+
+
+   /* overview table */
+    .timeline::before{
+        left:3px;
+    
+        width:2.5px;
+    
+        height:100%;
+    
+        background:var(--primary);
+    }
+   
 }
